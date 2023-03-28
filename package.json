@@ -1,0 +1,22 @@
+{
+  "name": "blogmate",
+  "version": "1.0.0",
+  "description": "Blog Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Blogmate"
+  },
+  "author": "Shantanu Sahay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

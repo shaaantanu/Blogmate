@@ -1,0 +1,21 @@
+ <style>
+  #landing-content{
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  #titles{
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+  }
+ </style>
+
+ {{#each blogs}}
+ <div class="container" id="landing-content">
+   <ul><a href="/blogpost/{{this.slug}}" id="titles"><h2>{{this.title}}</h2></a></ul>
+   <li>{{this.content}}</li>
+   
+ </div> 
+  {{/each}}
+ 
