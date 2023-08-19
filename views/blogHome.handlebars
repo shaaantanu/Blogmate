@@ -14,7 +14,7 @@
  {{#each blogs}}
  <div class="container" id="landing-content">
    <ul><a href="/blogpost/{{this.slug}}" id="titles"><h2>{{this.title}}</h2></a></ul>
-   <li>{{this.content}}</li>
+   <li><a href = "{{this.content}}"> {{this.title}}</a></li>
    
  </div> 
   {{/each}}
